@@ -1,0 +1,105 @@
+@media only screen and (max-width: 600px) {
+ .mobileview
+ {
+  display: block;
+ }
+ .pro-sec
+ {
+  width: 100%;
+ }
+ .timeupsec
+ {
+  width: 100%;
+  padding-bottom: 30px;
+ }
+ .logut
+ {
+  margin: 15px 0px 30px;
+    padding-left: 15px;
+    border-radius: 0px;
+ }
+ .change-pass
+ {
+  width: 100%;
+  padding: 30px;
+ }
+ .test-sec-obj
+{
+  overflow: auto!important;
+}
+.sidebar .side-menu li a
+{
+  font-size: 12px;
+}
+.sidebar .side-menu li {
+    margin-bottom: 10px;
+    margin-left: -15px;
+}
+.numbertext
+{
+  width: 35%!important;
+}
+ 
+.main-dash
+{
+  padding-top: 15%;
+}
+.add-emp
+{
+  margin: 20px 0px;
+}
+  .ft-bar
+  {
+    font-size: 9px;
+  }
+  .content-bar
+  {
+    width: 100%;
+    margin-left: 0%;
+    padding-top: 10%;
+  }
+  .navbar-dark .navbar-brand
+  {
+    width: 70%;
+  }
+  .form-inline
+  {
+    flex-flow: row!important;
+  }
+  .side-menu
+  {
+    display: none;
+    width: 50%;
+    z-index: 9999;
+    transition: .5s;
+  }
+  .rightside
+  {
+    width: 1%;
+  }
+  .logform
+  {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 40%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1030px){
+  .sidebar .side-menu li a {
+    font-size: 14px;
+  }
+  .sidebar .side-menu li
+  {
+    margin-left: -20px;
+  }
+  .side-menu
+  {
+    width: 16%;
+    display: block;
+  }
+  .logform
+  {
+    width: 45%;
+  }
+  
+}
